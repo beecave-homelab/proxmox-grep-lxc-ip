@@ -9,7 +9,7 @@ set -euo pipefail
 # Last Modified: 17-11-2023
 
 # Constants
-OUTPUT_FILE="test_lxc_output.txt"
+OUTPUT_FILE="$HOME/test_lxc_output.txt"
 SUBNET_PREFIX="192"  # Match only IPs starting with this prefix
 
 # Function to fetch VMIDs of running containers from `pct list`
